@@ -1,0 +1,36 @@
+<html lang="ru">
+<head>
+    <style>
+        *{
+            padding: 10px;
+            margin: 5px;
+        }
+        fieldset {
+            text-align: center;
+        }
+
+        legend {
+            display: inline-block;
+        }
+        body {
+            text-align: center;
+        }
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+</head>
+<body>     
+    <h1>Information</h1>
+    <fieldset>
+        <legend>Order ID:</legend>
+        <div>{{ .OrderId}} </div><br>
+    </fieldset>
+    <fieldset>
+        <legend align="center">Order data:</legend>
+         <div>{{ .OrderInfo}}</div><br>
+    </fieldset>    
+</body>
+<html>

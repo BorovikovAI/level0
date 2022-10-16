@@ -1,0 +1,8 @@
+{
+  "DB": {
+    "user": "postgres",
+    "password": "pass1488",
+    "DBName": "testdb",
+    "SSLMode": "disable"
+  }
+}
